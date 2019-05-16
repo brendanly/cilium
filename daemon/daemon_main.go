@@ -1339,6 +1339,7 @@ func runDaemon() {
 			}
 			maps.CollectStaleMapGarbage()
 			maps.RemoveDisabledMaps()
+			maps.RemoveMigratedBackendMaps()
 		}()
 	}
 
