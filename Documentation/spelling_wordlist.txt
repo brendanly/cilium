@@ -285,6 +285,7 @@ jsgt
 jsle
 jslt
 json
+jsonpath
 JUnit
 kafka
 kallsyms
